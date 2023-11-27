@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Roboto", sans-serif;A
+}
+
+h1, h2, h3, h4, h5, strong {
+    color: black;
+}
+
+p, label, input, textarea, li {
+    color: dimgrey;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.main-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem; 
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a {
+    color: black;
+}
+
+#hero {
+    height: 720px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.hero-name {
+    font-size: 5rem;
+    font-weight: 800;
+    margin: 0.5rem 0 1rem;
+}
+
+.hero-right img {
+    width: 80%;
+}
+
+.hero-right {
+    display: flex;
+    justify-content: center;
+}
+
+#members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem 0;
+}
+
+.member-card {
+    text-align: center;
+    margin: 20px;
+}
+
+.member-card img {
+    width: 50%;
+    max-width: 100px;
+    border-radius: 0%;
+}
+
+
+#member4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px; 
+}
+
+#member4 .pre-title {
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: dimgrey;
+    position: relative;
+    padding-left: 20px; 
+    font-weight: 400;
+    font-size: 1rem; 
+}
+
+#member4 .pre-title::before {
+    content: "";
+    width: 15px; 
+    height: 1px;
+    background: dimgrey;
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 50%;
+}
+
+/* Instagram Icon */
+.instagram-icon {
+    color: #405DE6;
+}
